@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChef VIT-C Header</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#eaf3ff]"> <!-- Light Blue Background -->
+    <!-- Header -->
+    <header class="bg-[#2d3648] text-white px-6 py-4 flex justify-between items-center"> <!-- Updated Background Color -->
+        <div class="text-lg font-semibold">CodeChef VIT-C</div>
+        <nav class="flex space-x-6">
+            <a href="#" class="text-gray-300 hover:text-white border-b-2 border-transparent hover:border-yellow-400 pb-1">Dashboard</a>
+            <a href="#" class="text-gray-300 hover:text-white border-b-2 border-transparent hover:border-yellow-400 pb-1">Leaderboard</a>
+            <a href="#" class="text-gray-300 hover:text-white border-b-2 border-transparent hover:border-yellow-400 pb-1">Request</a>
+            <a href="#" class="text-gray-300 hover:text-white border-b-2 border-transparent hover:border-yellow-400 pb-1">Signout</a>
+            <div class="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-white">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0013.5 3h-3a2.25 2.25 0 00-2.25 2.25V9m-6 0h18m-1.5 0v9a2.25 2.25 0 01-2.25 2.25H6.75A2.25 2.25 0 014.5 18V9m16.5 0H3"></path>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Points Summary -->
+    <section class="p-6">
+        <div class="bg-[#dbe9ff] shadow-md rounded-lg p-6"> <!-- Light Blue Card Background -->
+            <div class="flex justify-between items-center">
+                <h2 class="text-2xl font-semibold flex items-center">
+                    <!-- Coin Image -->
+                    <img src="https://cdn-icons-png.flaticon.com/512/3068/3068400.png" alt="Coin" class="w-6 h-6 mr-2"> 
+                    Points Summary
+                </h2>
+                <!-- Member Name Box - Right Aligned -->
+                <div class="bg-gray-900 text-white p-3 rounded-lg">
+                    <span class="text-gray-300">Member name</span> | <span class="font-semibold">23XXX1000</span>
+                </div>
+            </div>
+            <p class="text-lg mt-2">Total Points: <span class="font-bold">100</span></p>
+        </div>
+    </section>
+</body>
+</html>
